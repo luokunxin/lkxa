@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+/*图片的样式*/
+#box,#box2{
+	width: 500px;
+	height: 300px;
+	background: #d8d8d8;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.imglist{
+width: 100%;
+height: 100%;
+}
+
+.imglist li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+
+
+}
+.imglist li img{
+	height: 100%;
+	width: 100%;
+
+}
+
+.imglist li:nth-child(1){
+	background: #0088CC;
+}
+.imglist li:nth-child(2){
+	background: lemonchiffon;
+}
+.imglist li:nth-child(3){
+	background: lavenderblush;
+}
+.imglist li:nth-child(4){
+	background: lightcoral;
+}
+.imglist li:nth-child(5){
+	background: lightcyan;
+}
+.imglist li:nth-child(6){
+	background: lightgreen;
+} 
+
+.c-li .light{
+	width: 170px;
+	height: 20px;	
+	text-align: center;
+	position: absolute;
+	left: 75%;
+	bottom: 20px;
+	display: inline-block;
+	z-index: 4;
+} 
+.light span{
+	
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #d8d8d8;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	background: #000;
+	margin-right: 10px;
+	
+	text-indent: -9999px;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	
+}
+.imglist1 {
+	width: 2000px;
+	height: 422px;
+
+}
+
+
+.light span.active{
+	background:#fff;
+}
+
+.light span.liang{
+	background:lightcoral;
+}
+.posibtn11{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+	/*background: #ccc;*/
+	position: absolute;
+	left: -10px;
+}
+.posibtn11 p{
+	width: 50px;
+	height: 50px;
+	background: #0074CC;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.posibtn11 p:nth-child(1){
+	left: 10px;
+}
+.posibtn11 p:nth-child(2){
+	right: 0px;
+}

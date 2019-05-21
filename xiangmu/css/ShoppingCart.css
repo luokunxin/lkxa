@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    height: 131px;
+}
+.content{
+    width: 1200px;
+    height: 100%;
+    margin:  0 auto;
+}
+.head .content>img{
+    float: left;
+}
+.head .content .head_top{
+    width: 982px;
+    height: 25px;
+    border-bottom: #e8e8e8;
+    float: left;
+}
+.head .content .head_top>span{
+    color: #747474;
+    font-size: 12px;
+    margin-top: 14px;
+    display: inline-block;
+    width: 117px;
+    height: 15px;
+    border-right: 1px  solid #e8e8e8;   
+    text-align: center;
+}
+.head .content .head_top_right{
+    width: 485px;
+    height: 25px;
+    float: right;
+    
+}
+.head .content .head_top_right span{
+    font-size: 12px;
+    color: #747474;
+    padding-left: 10px;
+    display: inline-block;
+    margin-top: 14px;
+     
+}
+.head .content .head_bottom{
+    width: 985px;
+    height: 105px;
+    float: left;
+    margin-top:10px;
+    border-top: 1px solid #e8e8e8;
+}
+.head .content .head_bottom  .bottom_img{
+    height: 25px;
+    width: 620px;
+    overflow: hidden;
+    float: right;
+    margin-top: 42px;
+}
+
+.rexiao{
+    border: 1px solid #ebebeb;
+    height: 480px;
+    width: 100%;
+}
+.rexiao .rexiao_top{
+height: 40px;
+width: 100%;
+border-bottom: 1px solid #ebebeb;
+padding-left: 40PX;
+box-sizing: border-box;
+}
+.rexiao .rexiao_top>P{
+    
+    color: #838383;
+    line-height: 35px;
+    float: left;
+    position: absolute;
+    text-align: left;   
+}
+
+
+.else{
+    height: 440px;
+    ;
+    border: 1px solid #ebebeb;
+    width: 100%;
+}
+.else .else_top{
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+padding-left: 20PX;
+box-sizing: border-box;
+}
+.else .else_top span:nth-child(1){
+    color: #474747;
+    line-height: 40px;
+    margin: 0 50px 0 20px;
+}
+.else .else_top span:nth-child(2){
+color: #bfbfbf;
+font-size: 12px;
+display: inline-block;
+width: 150px;
+height: 14px;
+text-align: right;
+border-left: 1px solid #bfbfbf;
+}
+
+#mbs_regsiter .foot{
+    height: 370px;
+    /* background: #ccc; */
+}
+.cotente1
+.foot .content 
+.foot .content .f_infos{
+width: 1182px;
+overflow: hidden;
+margin: 0 auto;
+/* padding-bottom: 15px; */
+}
+.foot .content .f_infos ul{
+float: left;
+padding-bottom: 0;
+padding-left: 32px;
+padding-left: 30px;
+padding-right: 32px;
+padding-top: 0;
+margin-bottom: 15px;
+}
+.foot .content .f_infos ul li a{
+color: #7f7f7f
+}
+.foot .content .f_infos ul li{
+font-size: 12px;
+line-height: 22px;
+}
+.foot .content .f_infos ul .lititle{
+margin-top: 10px;
+color: #000;
+}
+
+.foot .content .f_infos ul .lititle a{
+font-weight: 600;
+color: #000;
+}
+.foot .content .f_mbs_info{
+width: 670px;
+height: 70px;
+float: left;
+margin-left: 245px;
+margin-top: 16px;
+}
+.foot .content .f_mbs_info img{
+float: left;
+padding: 0 16px;
+border-right: 1px solid #d9d9d9;    
+}
+.foot .content .copy_text{
+float: left;
+height: 60px;
+width: 800px;
+color: #7f7f7f;
+font-size: 12px;
+margin-left: 165px;
+}
+
+.foot .content .f_mbs_info1{
+float: left;
+height: 60px;
+width: 938px;
+
+margin-left: 123px;
+
+
+}
+.foot .content .copy_text  span{
+font-size: 12px;
+color: #7f7f7f
+}
+.foot .content .copy_text .sp1{
+margin-left: 240px;
+}
+.foot .content .copy_text span a{
+color: #7f7f7f;
+}
+.carbody .content .title{
+    width: 1200px;
+    height: 36px;
+    background: #ebebeb;
+
+}
+.carbody .content{
+    position: relative;
+}
+#shopping .carbody .content .title .top dt{
+    float: left;
+    padding-left: 59px;
+    width: 40px;
+    line-height: 13px;
+}
+.carbody .content .title .top dt input{
+    margin: 3px 12px 0;
+    width: 13px;
+    height: 13px;
+}
+.carbody .content .title .top dd{
+    float: left;
+    height: 36px;
+    color: #414141;
+    font-size: 14px;
+    font-family: "宋体";
+
+}
+
+.carbody .content .title .top .qb{
+    width: 56px;
+    text-align: left;
+}
+.carbody .content .title .top .sp{
+    width: 440px;
+    text-align: center;
+}
+.carbody .content .title .top .dj{
+    width: 150px;
+    text-align: center;
+}
+.carbody .content .title .top  .sl{
+    width: 100px;
+    text-align: center;
+}
+.carbody .content .title .top .jexj{
+    width: 192px;
+    text-align: center;
+}
+.carbody .content .title .top .cz{
+    width: 58px;
+    text-align: left;
+}
+#shopping .carbody .content .buygoods1{
+
+    margin: 0 auto;
+    width: 1198px;
+    overflow: hidden;
+    padding-top: 9px;
+    border-top: solid 1px #e1e1e1;
+    border-right: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+    border-left: solid 1px #ebebeb;
+    position: relative;
+    top: -10px;
+}
+#shopping .carbody .content .buygoods{
+    margin: 0 auto;
+    width: 1198px;
+    overflow: hidden;
+    padding-top: 9px;
+    /* display: none; */
+}
+#shopping .carbody .content .buygoods .w98{
+    margin: 0 auto;
+    width: 980px;
+}
+#shopping .carbody .content .buygoods .w98 .section{
+    /* float: left; */
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 147px 0 146px;
+    width: 687px;
+    height: 250px;
+    background: url(../inages/shopcar.jpg) no-repeat 202px 62px;
+    /* display: none; */
+}
+#shopping .carbody .content .w98 .section dl{
+    float: left;
+    padding-top: 89px;
+    padding-left: 208px;
+    width: 405px;
+    height: 120px;
+}
+#shopping .carbody .content  .w98 .section dl dt{
+    width: 100%;
+    height: 35px;
+    color: #333;
+    font: 25px/35px '微软雅黑';
+}
+#shopping .carbody .content .w98 .section dl dd{
+    width: 370px;
+    font: 16px/35px '微软雅黑';
+    line-height: 20px;
+
+}
+#shopping .carbody .content  .w98 .section dl dd span{
+    color: #d3023c;
+    font: 16px/35px '微软雅黑';
+}
+#shopping .carbody .content .clearfix .shop{
+    float: left;
+    margin: 0 auto;
+    padding-left: 40px;
+    width: 1118px;
+    
+}
+#shopping .carbody .content .clearfix .shop .title{
+    margin: 0 auto;
+    width: 1118px;
+    height: 30px;
+    background: #f5f5f5;
+    color: #5d5d5d;
+    font-size: 13px;
+    line-height: 30px;
+}
+#shopping .carbody .content .clearfix .shop .title .shangjia{
+    margin-right: 5px;
+    margin-left: 46px;
+    color: #333;
+    font-size: 12px;
+}
+
+#shopping .carbody .content .clearfix .shop .title .yunfei{
+    font-size: 13px;
+    line-height: 30px;    color: #333;
+}
+#shopping .carbody .content .clearfix .shop .title .yunfei .red{
+    color: #d90077;
+    font-weight: 700;
+}
+#shopping .carbody .content .clearfix .shop .nr{
+    float: left;
+    margin-left: 0;
+    width: 1118px;
+    padding-left: 45px;
+    box-sizing: border-box;
+}
+#shopping .carbody .content .clearfix .shop .nr .left{
+    float: left;
+    width: 70px;
+}
+#shopping .carbody .content .clearfix .shop .nr  dt{
+    float: left;
+    height: 55px;
+    padding-top: 25px;
+    box-sizing: border-box
+}
+#shopping .carbody .content .clearfix .shop .nr .left img{
+    margin: 6px 0 0 10px;
+    width: 39px;
+    height: 53px;
+    border: 1px solid #eeeced;
+}
+#shopping .carbody .content .clearfix .shop .nr .right{
+    float: left;
+    padding: 15px 0;
+    width: 406px;
+}
+#shopping .carbody .content .clearfix .shop .nr .right .spmc{
+    float: left;
+    width: 406px;
+    color: #5c5c5c;
+    text-align: left;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 18px;
+}
+
+#shopping .carbody .content .clearfix .shop .nr .right .zhiliao{
+    float: left;
+    width: 406px;
+    color: #9d9d9d;
+    text-align: left;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 18px;
+}
+#shopping .carbody .content .clearfix .shop .nr .dj{
+    display: inline;
+    padding-top: 20px;
+    width: 115px;
+    text-align: center;
+    font-size: 12px;float: left;
+    color: #414141;
+}
+#shopping .carbody .content  .nr dl .dj p{
+    width: 115px;
+    height: 18px;
+    color: #000;
+    text-align: right;
+    line-height: 18px;  
+}
+#shopping .carbody .content  .nr .sl{
+    padding-top: 20px;
+    padding-left: 70px;
+    width: 95px;
+    text-align: center;
+    float: left;
+}
+#shopping .carbody .content  .nr .sl span{
+    overflow: hidden;
+    width: 18px;
+    height: 24px;
+    border: 1px solid #ebebeb;
+    color: #000;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+}
+#shopping .carbody .content  .nr .sl input{
+    width: 30px;
+    height: 24px;
+    border-top: solid 1px #ebebeb;
+    border-right: none;
+    border-bottom: solid 1px #ebebeb;
+    border-left: none;
+    text-align: center;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 24px;
+    float: left;
+}
+
+#shopping .carbody .content  .nr .jexj{
+    padding-top: 20px;
+    width: 118px;
+    color: #d90077;
+    text-align: right;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 20px;
+    float: left;
+}
+#shopping .carbody .content  .nr .cz{
+    position: relative;
+    padding-top: 12px;
+    width: 158px;
+    text-align: center;
+    float: left;
+}
+#shopping .carbody .content  .nr .cz .xiugai{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 50px;
+    height: 24px;
+    color: #000;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 24px;
+}
+#shopping .carbody .content  .nr .cz  .shanchu{
+    margin: 0 auto;
+    height: 18px;
+    color: #a6a6a6;
+    font-size: 12px;
+    line-height: 18px;
+}
+#shopping .carbody .content .paym{
+    margin: 0 auto;
+    /* height: 170px; */
+    padding-left: 40px;
+    width: 1158px;
+    height: 170px;
+    border-right: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+    border-left: solid 1px #ebebeb;
+    overflow: hidden;
+    /* display: none; */
+}
+#shopping .carbody .content .paym .erweima{
+    float: left;
+    margin-top: 15px;
+}
+#shopping .carbody .content .paym .erweima img{
+    margin-bottom: 50px;
+    margin-left: 40px;
+
+}
+#shopping .carbody .content .paym .code{
+    float: left;
+    margin-top: 25px;
+}
+#shopping .carbody .content .paym .zs{
+    text-align: right;
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 30px;
+    margin-top: 54px;
+    margin-right: 40px;
+}
+#shopping .carbody .content .paym .zs .pics{
+    color: #d90075;
+    font-weight: 700;
+}
+#shopping .carbody .content .paym .zs .zj{
+    font-weight: 700;
+}
+#shopping .carbody .content .paym .zs .rmb{
+    color: #d60076;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+#shopping .carbody .content .paym .zs .howmuch{
+    color: #d60076;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#shopping .carbody .content .paym  .fr{
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+#shopping .carbody .content .paym  .fr span{
+    background: #DB0060;
+    color: #fff;    display: inline-block;
+    width: 226px;
+    height: 48px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    line-height: 48px;
+}
